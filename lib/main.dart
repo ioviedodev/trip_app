@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'description_place.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -31,20 +31,21 @@ class MyApp extends StatelessWidget {
             centerTitle: true,
           ),
           body:
-          SafeArea (
-            child: Container (
-              alignment: Alignment.center,
-              decoration:  BoxDecoration(
-                image: DecorationImage(
-                  colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.dstATop),
-                  image: const NetworkImage('https://d1s9j44aio5gjs.cloudfront.net/2020/09/Underwater-empty-pool.jpg'),
-                  fit: BoxFit.cover,
-                ),
-              ),
-              child: const Text("Second challenge got it!!!",
-                  style: TextStyle(fontSize: 30)),
-            ),
-          )
+          new DescriptionPlace(),
+          // SafeArea (
+          //   child: Container (
+          //     alignment: Alignment.center,
+          //     decoration:  BoxDecoration(
+          //       image: DecorationImage(
+          //         colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.dstATop),
+          //         image: const NetworkImage('https://d1s9j44aio5gjs.cloudfront.net/2020/09/Underwater-empty-pool.jpg'),
+          //         fit: BoxFit.cover,
+          //       ),
+          //     ),
+          //     child: const Text("Second challenge got it!!!",
+          //         style: TextStyle(fontSize: 30)),
+          //   ),
+          // )
       )//const MyHomePage(title: 'Flutter Demo Home Page'),
 
     );
