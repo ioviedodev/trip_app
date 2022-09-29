@@ -27,26 +27,14 @@ class MyApp extends StatelessWidget {
       home: Scaffold
         (
           appBar: AppBar(
+
             title: const Text("Second Challenge"),
             centerTitle: true,
           ),
           body:
-          new DescriptionPlace(),
-          // SafeArea (
-          //   child: Container (
-          //     alignment: Alignment.center,
-          //     decoration:  BoxDecoration(
-          //       image: DecorationImage(
-          //         colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.dstATop),
-          //         image: const NetworkImage('https://d1s9j44aio5gjs.cloudfront.net/2020/09/Underwater-empty-pool.jpg'),
-          //         fit: BoxFit.cover,
-          //       ),
-          //     ),
-          //     child: const Text("Second challenge got it!!!",
-          //         style: TextStyle(fontSize: 30)),
-          //   ),
-          // )
-      )//const MyHomePage(title: 'Flutter Demo Home Page'),
+          DescriptionPlace("Telematic",2,"The following puntuation reflect what the surveyed people think about what is most popular carrer."),
+
+      )
 
     );
   }
