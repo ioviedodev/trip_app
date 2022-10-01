@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:trip_app/review_list.dart';
 import 'description_place.dart';
+import 'review_list.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -32,7 +35,12 @@ class MyApp extends StatelessWidget {
             centerTitle: true,
           ),
           body:
-          DescriptionPlace("Telematic",2,"The following puntuation reflect what the surveyed people think about what is most popular carrer."),
+          Column(
+            children: <Widget>[
+              DescriptionPlace("Telematic",2,"The following puntuation reflect what the surveyed people think about what is most popular carrer."),
+              const ReviewList()
+            ],
+          )
 
       )
 

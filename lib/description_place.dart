@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 class DescriptionPlace extends StatelessWidget {
   String namePlace="";
-  int stars=0;
+  double numberStars=0;
   String descriptionPlace="";
 
-  DescriptionPlace(this.namePlace, this.stars, this.descriptionPlace, {super.key});
+  DescriptionPlace(this.namePlace, this.numberStars, this.descriptionPlace, {super.key});
 
-  Widget getStarByIcon (IconData iconData) //Icons.star
+  Widget getStarByIcon (IconData iconData, int color)
   {
     final star = Container(
       margin: const EdgeInsets.only(top: 323.0, right: 3.0),
       child:  Icon(
         iconData,
-        color: Color(0xFFf2c611),
+        color: Color(color),
       ),
     );
     return star;
@@ -23,7 +22,15 @@ class DescriptionPlace extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //TODO: implement build
-
+    // String decimals;
+    // int decimalDigits=0; // index=0;
+    //
+    // decimals = numberStars.toString().split('.')[1];
+    //
+    // if(decimals.compareTo("0")!=0)
+    // {
+    //   decimalDigits=decimals.length;
+    // }
 
     final description = Column(
         mainAxisSize: MainAxisSize.max,
@@ -32,27 +39,19 @@ class DescriptionPlace extends StatelessWidget {
            Text(
               descriptionPlace,
               textAlign: TextAlign.justify,
+              style: const TextStyle(fontFamily: "Lato"),
            )
         ]);
 
 
-
-    final star = Container(
-      margin: const EdgeInsets.only(top: 323.0, right: 3.0),
-      child: const Icon(
-        Icons.star,
-        color: Color(0xFFf2c611),
-      ),
-    );
-
-    final titleStartUpdated =
+    final titleStar =
         Row(
           children: <Widget>[
             Container(
               margin: const EdgeInsets.only(top: 320.0, left: 20.0, right: 20.0),
               child: Text(
                 namePlace,
-                style: const TextStyle(fontSize: 30.0, fontWeight: FontWeight.w900),
+                style: const TextStyle(fontFamily: "Lato", fontSize: 30.0, fontWeight: FontWeight.w900),
                 textAlign: TextAlign.left,
               ),
             ),
@@ -60,10 +59,10 @@ class DescriptionPlace extends StatelessWidget {
             Row(
                 children:
             [
-              getStarByIcon(Icons.star),
-              getStarByIcon(Icons.star),
-              getStarByIcon(Icons.star),
-              getStarByIcon(Icons.star_half)
+              getStarByIcon(Icons.star,0xFFf2c611),
+              getStarByIcon(Icons.star,0xFFf2c611),
+              getStarByIcon(Icons.star,0xFFf2c611),
+              getStarByIcon(Icons.star_half,0xFFf2c611)
             ])
           ],
         );
@@ -73,8 +72,8 @@ class DescriptionPlace extends StatelessWidget {
 
         Column(
         children: [
-          titleStartUpdated,
-          SizedBox(height: 10),
+          titleStar,
+          const SizedBox(height: 10),
           description
         ],
         );
@@ -82,5 +81,7 @@ class DescriptionPlace extends StatelessWidget {
 
 
     return body;
+
+    throw UnimplementedError();
   }
 }
