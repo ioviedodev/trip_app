@@ -63,6 +63,10 @@ flutter:
   assets:
      - asset/img/iot.jpg
      - asset/img/csciense.jpg
+     - asset/img/civil.jpg
+     - asset/img/computer.jpg
+     - asset/img/electronic.jpg
+     - asset/img/telecomunication.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

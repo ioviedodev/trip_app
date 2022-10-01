@@ -2,8 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:trip_app/review_list.dart';
 import 'description_place.dart';
 import 'review_list.dart';
+import 'gradient_back.dart';
+import 'package:flutter/services.dart';
+import 'package:trip_app/header_appbar.dart';
 
 void main() {
+
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent, // transparent status bar
+  ));
+
   runApp(const MyApp());
 }
 
@@ -29,18 +37,29 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold
         (
-          appBar: AppBar(
-
-            title: const Text("Second Challenge"),
-            centerTitle: true,
-          ),
+          // appBar: AppBar(
+          //
+          //   title: const Text("Second Challenge"),
+          //   centerTitle: true,
+          // ),
           body:
-          Column(
+          Stack( // GradientBack()
             children: <Widget>[
-              DescriptionPlace("Telematic",2,"The following puntuation reflect what the surveyed people think about what is most popular carrer."),
-              const ReviewList()
+             ListView(
+               children: <Widget>[
+                     DescriptionPlace("Telematic",2,"The following puntuation reflect what the surveyed people think about what is most popular carrer."),
+                     const ReviewList()
+               ],
+             ),
+              const HeaderAppBar()
             ],
           )
+          // Column(
+          //   children: <Widget>[
+          //     DescriptionPlace("Telematic",2,"The following puntuation reflect what the surveyed people think about what is most popular carrer."),
+          //     const ReviewList()
+          //   ],
+          // )
 
       )
 
