@@ -78,7 +78,7 @@ class DescriptionPlace extends StatelessWidget {
           titleStar,
           const SizedBox(height: 10),
           description,
-          ButtonPurple("Navigation")
+          ButtonPurple("Navigate")
         ],
         );
 

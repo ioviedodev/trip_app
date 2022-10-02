@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 class ButtonPurple extends StatelessWidget{
 
   String buttonText="";
+  String snackBarText="Navigating";
 
   ButtonPurple(this.buttonText, {super.key});
-
 
   @override
   Widget build(BuildContext context) {
 
     final button= InkWell(
-      onTap: () {
-        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Navigating")));
+      onTap: () { //Interact with the button
+        ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text(snackBarText)));
       },
       child: Container(
          margin: const EdgeInsets.only(
@@ -30,7 +30,7 @@ class ButtonPurple extends StatelessWidget{
                   Color(0xFF4268D3),
                   Color(0xFF584CD1)
                 ],
-                begin: FractionalOffset(0.2,0.0),
+                begin: FractionalOffset(0.3,0.0),
                 end: FractionalOffset(1.0,0.6),
                 stops: [0.0,0.6],
                 tileMode: TileMode.clamp
