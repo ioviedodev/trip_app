@@ -51,10 +51,10 @@ class DescriptionPlace extends StatelessWidget {
             Row(
                 children:
             [
-              _utility.getIconByIcon(Icons.star,0xFFf2c611),
-              _utility.getIconByIcon(Icons.star,0xFFf2c611),
-              _utility.getIconByIcon(Icons.star,0xFFf2c611),
-              _utility.getIconByIcon(Icons.star_half,0xFFf2c611)
+              _utility.getIconByIcon(Icons.star,0xFFf2c611, 323.0, 3.0),
+              _utility.getIconByIcon(Icons.star,0xFFf2c611, 323.0, 3.0),
+              _utility.getIconByIcon(Icons.star,0xFFf2c611, 323.0, 3.0),
+              _utility.getIconByIcon(Icons.star_half,0xFFf2c611, 323.0, 3.0)
             ])
           ],
         );

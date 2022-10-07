@@ -10,35 +10,15 @@ class Review extends StatelessWidget {
 
   Review(this.pathImage, this.name, this.details, this.comment, {super.key});
 
-Widget buildWidgetInfo(String text, TextAlign align, double fontSize, int color)//0xffa3a5a7
-{
-  final info = Container(
-    margin: const EdgeInsets.only(
-        left: 20
-    ),
-    child: Text(
-        text,
-        textAlign: align,
-        style:  TextStyle(
-            fontFamily: "Lato",
-            fontSize: fontSize,
-            color: Color(color)
-        )
-    ),
-  );
-
-  return info;
-}
-
   @override
   Widget build(BuildContext context) {
 
-    final userName = buildWidgetInfo(name, TextAlign.left, 17.0, 0xffa3a5a7);
-    final userComment = buildWidgetInfo(comment, TextAlign.left, 13.0, 0xffa3a5a7);
+    final userName = _utility.buildWidgetInfo(name, TextAlign.left, 17.0, 0xffa3a5a7);
+    final userComment = _utility.buildWidgetInfo(comment, TextAlign.left, 13.0, 0xffa3a5a7);
     final userInfo =
     Row(
         children: <Widget>[
-          buildWidgetInfo(details, TextAlign.left, 13.0, 0xffa3a5a7),
+          _utility.buildWidgetInfo(details, TextAlign.left, 13.0, 0xffa3a5a7),
         ],
     );
 

@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 
 class Utilities {
 
-  Widget getIconByIcon (IconData iconData, int color)
+  Widget getIconByIcon (IconData iconData, int color, double marginTop, double marginLeft)
   {
     final star = Container(
-      margin: const EdgeInsets.only(top: 323.0, right: 3.0),
+      margin: EdgeInsets.only(top: marginTop, right: marginLeft),
       child:  Icon(
         iconData,
         color: Color(color),
