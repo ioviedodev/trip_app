@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:trip_app/review_list.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient_back.dart';
 import 'package:flutter/services.dart';
 import 'package:trip_app/header_appbar.dart';
+import 'contact_detail.dart';
 
 void main() {
 
@@ -49,17 +49,12 @@ class MyApp extends StatelessWidget {
                children: <Widget>[
                      DescriptionPlace("Telematic",2,"The following puntuation reflect what the surveyed people think about what is most popular carrer."),
                      const ReviewList()
+                 // ContactDetail("asset/img/civil.jpg","Ivan Alvarado", "5 years"),
                ],
              ),
               const HeaderAppBar()
             ],
           )
-          // Column(
-          //   children: <Widget>[
-          //     DescriptionPlace("Telematic",2,"The following puntuation reflect what the surveyed people think about what is most popular carrer."),
-          //     const ReviewList()
-          //   ],
-          // )
 
       )
 

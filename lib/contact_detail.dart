@@ -17,7 +17,24 @@ class ContactDetail extends StatelessWidget{
 
     final userName = _utility.buildWidgetInfo(name, TextAlign.left, 17.0, 0xffa3a5a7);
     final userExperience = _utility.buildWidgetInfo("Experience: $experience", TextAlign.left, 17.0, 0xffa3a5a7);
+    final photo = _utility.buildPhoto(pathImage, 20.0, 20.0, 80.0, 80.0, BoxShape.circle, BoxFit.cover);
 
-    throw UnimplementedError();
+    final userDetails = Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        userName,
+        userExperience
+      ],
+    );
+
+    final rowContactDetail = Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        photo,
+        userDetails
+      ],
+    );
+
+    return rowContactDetail;
   }
 }

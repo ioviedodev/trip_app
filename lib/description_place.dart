@@ -1,25 +1,15 @@
 import 'package:flutter/material.dart';
 import 'button_purple.dart';
-
+import 'utililies.dart';
 
 class DescriptionPlace extends StatelessWidget {
   String namePlace="";
   double numberStars=0;
   String descriptionPlace="";
 
-  DescriptionPlace(this.namePlace, this.numberStars, this.descriptionPlace, {super.key});
+  final _utility= Utilities();
 
-  Widget getStarByIcon (IconData iconData, int color)
-  {
-    final star = Container(
-      margin: const EdgeInsets.only(top: 323.0, right: 3.0),
-      child:  Icon(
-        iconData,
-        color: Color(color),
-      ),
-    );
-    return star;
-  }
+  DescriptionPlace(this.namePlace, this.numberStars, this.descriptionPlace, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -61,10 +51,10 @@ class DescriptionPlace extends StatelessWidget {
             Row(
                 children:
             [
-              getStarByIcon(Icons.star,0xFFf2c611),
-              getStarByIcon(Icons.star,0xFFf2c611),
-              getStarByIcon(Icons.star,0xFFf2c611),
-              getStarByIcon(Icons.star_half,0xFFf2c611)
+              _utility.getIconByIcon(Icons.star,0xFFf2c611),
+              _utility.getIconByIcon(Icons.star,0xFFf2c611),
+              _utility.getIconByIcon(Icons.star,0xFFf2c611),
+              _utility.getIconByIcon(Icons.star_half,0xFFf2c611)
             ])
           ],
         );

@@ -3,6 +3,18 @@ import 'package:flutter/material.dart';
 
 class Utilities {
 
+  Widget getIconByIcon (IconData iconData, int color)
+  {
+    final star = Container(
+      margin: const EdgeInsets.only(top: 323.0, right: 3.0),
+      child:  Icon(
+        iconData,
+        color: Color(color),
+      ),
+    );
+    return star;
+  }
+
   Widget buildPhoto(String pathImage, double top, double left, double width, double height, BoxShape boxShape, BoxFit boxFit){
     final photo = Container(
       margin:  EdgeInsets.only(
