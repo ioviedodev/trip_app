@@ -21,7 +21,7 @@ class JobVacancy extends StatelessWidget{
         )
       ),
       child:
-      CardImage("asset/img/csciense.jpg"),
+      CardImage("asset/img/full_stack_developer.png"),
 
 
     );

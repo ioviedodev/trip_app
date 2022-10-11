@@ -75,6 +75,7 @@ flutter:
      - asset/img/vacancy6.png
      - asset/img/vacancy7.png
      - asset/img/vacancy8.png
+     - asset/img/full_stack_developer.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
