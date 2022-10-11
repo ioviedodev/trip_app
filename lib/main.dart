@@ -5,6 +5,7 @@ import 'gradient_back.dart';
 import 'package:flutter/services.dart';
 import 'package:trip_app/header_appbar.dart';
 import 'contact_detail_list.dart';
+import 'trips.dart';
 
 void main() {
 
@@ -35,28 +36,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold
-        (
-          // appBar: AppBar(
-          //
-          //   title: const Text("Second Challenge"),
-          //   centerTitle: true,
-          // ),
-          body:
-          Stack( // GradientBack()
-            children: <Widget>[
-             ListView(
-               children: <Widget>[
-                     DescriptionPlace("Telematic",2,"The following puntuation reflect what the surveyed people think about what is most popular carrer."),
-                     const ReviewList()
-                  // ContactDetailList(),
-               ],
-             ),
-              HeaderAppBar("careers")//candidates
-            ],
-          )
-
-      )
+      home: const Trips(),
 
     );
   }
