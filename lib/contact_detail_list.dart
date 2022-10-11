@@ -6,16 +6,6 @@ class ContactDetailList extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
-    // final contactDetailList= Column(
-    //   crossAxisAlignment: CrossAxisAlignment.start,
-    //   children: <Widget>[
-    //     ContactDetail("asset/img/civil.jpg","Ivan Alvarado", "5 years"),
-    //     ContactDetail("asset/img/computer.jpg","Ximena Garaicoa", "3 years"),
-    //     ContactDetail("asset/img/csciense.jpg","Andrea Constante", "7 years"),
-    //     ContactDetail("asset/img/telecomunication.jpg","Marcelo Calvo", "1 years")
-    //   ],
-    // );
-
 
     final contactDetailList= Container(
         margin: const EdgeInsets.only(
