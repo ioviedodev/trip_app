@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
                   ContactDetailList(),
                ],
              ),
-              // const HeaderAppBar()
+              HeaderAppBar("candidates")//candidates
             ],
           )
 

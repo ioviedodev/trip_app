@@ -67,6 +67,14 @@ flutter:
      - asset/img/computer.jpg
      - asset/img/electronic.jpg
      - asset/img/telecomunication.jpg
+     - asset/img/vacancy1.png
+     - asset/img/vacancy2.png
+     - asset/img/vacancy3.png
+     - asset/img/vacancy4.png
+     - asset/img/vacancy5.png
+     - asset/img/vacancy6.png
+     - asset/img/vacancy7.png
+     - asset/img/vacancy8.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

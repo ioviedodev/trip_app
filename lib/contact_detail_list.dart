@@ -19,7 +19,7 @@ class ContactDetailList extends StatelessWidget{
 
     final contactDetailList= Container(
         margin: const EdgeInsets.only(
-            top: 200.0,
+            top: 260.0,
             left: 30.0,
             right: 30.0
         ),
@@ -41,14 +41,14 @@ class ContactDetailList extends StatelessWidget{
       width: double.infinity,
       child: Column (
         children: <Widget>[
-          ContactDetail("asset/img/civil.jpg","Ivan Alvarado", "5 years"),
-          ContactDetail("asset/img/computer.jpg","Ximena Garaicoa", "3 years"),
-          ContactDetail("asset/img/csciense.jpg","Andrea Constante", "7 years"),
-          ContactDetail("asset/img/telecomunication.jpg","Marcelo Calvo", "1 years"),
-          ContactDetail("asset/img/csciense.jpg","Andrea Constante", "7 years"),
-          ContactDetail("asset/img/telecomunication.jpg","Marcelo Calvo", "1 years"),
-          ContactDetail("asset/img/csciense.jpg","Andrea Constante", "7 years"),
-          ContactDetail("asset/img/telecomunication.jpg","Marcelo Calvo", "1 years")
+          ContactDetail("asset/img/vacancy1.png","Ivan Alvarado", "5 years",Icons.laptop),
+          ContactDetail("asset/img/vacancy2.png","Ximena Garaicoa", "3 years",Icons.smartphone),
+          ContactDetail("asset/img/vacancy3.png","Andrés Cedeño", "7 years",Icons.rocket_launch_sharp),
+          ContactDetail("asset/img/vacancy4.png","Marcelo Calvo", "1 years",Icons.security),
+          ContactDetail("asset/img/vacancy5.png","Gerardo Morán", "7 years",Icons.home),
+          ContactDetail("asset/img/vacancy6.png","Marcela Pincay", "1 years",Icons.rocket_launch_sharp),
+          ContactDetail("asset/img/vacancy7.png","Andrea Constante", "7 years",Icons.rocket_launch_sharp),
+          ContactDetail("asset/img/vacancy8.png","Marcelo Calvo", "1 years",Icons.rocket_launch_sharp)
         ],
       ),
     );

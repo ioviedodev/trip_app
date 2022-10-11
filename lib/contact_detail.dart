@@ -6,10 +6,10 @@ class ContactDetail extends StatelessWidget{
   final String pathImage;
   final String name;
   final String experience;
-
+  final IconData icon;
   final _utility= Utilities();
 
-  ContactDetail(this.pathImage, this.name, this.experience, {super.key} );
+  ContactDetail(this.pathImage, this.name, this.experience, this.icon, {super.key} );
 
 
   @override
@@ -40,7 +40,7 @@ class ContactDetail extends StatelessWidget{
         ),
         Expanded(
           flex: 3,
-          child:  _utility.getIconByIcon(Icons.rocket_launch_sharp,0xFFf2c611, 10.0, 0.0),
+          child:  _utility.getIconByIcon(icon,0xFFf2c611, 10.0, 0.0),
         ),
       ],
     );
