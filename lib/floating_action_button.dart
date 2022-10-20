@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-
+import 'package:trip_app/home_trips.dart';
+import 'package:trip_app/search_trips.dart';
+import 'home_trips.dart';
+import 'profile_trips.dart';
 
 class FloatingActionButtonCustomize extends StatefulWidget{
   const FloatingActionButtonCustomize({super.key});
@@ -15,6 +18,9 @@ class _FloatingActionButtonCustomize extends State<FloatingActionButtonCustomize
   String addFav = "Adding to favourite", removeFav = "Removing from favourites";
   int fabIndex = 0;
   Icon fab = const Icon(Icons.favorite_border);
+
+
+
 
   @override
   Widget build(BuildContext context) {
