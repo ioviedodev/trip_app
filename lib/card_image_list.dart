@@ -13,10 +13,10 @@ class CardImageList extends StatelessWidget{
          padding: const EdgeInsets.all(25.0),
           scrollDirection: Axis.horizontal,
         children: <Widget>[
-        CardImage("asset/img/civil.jpg"),
-          CardImage("asset/img/computer.jpg"),
-          CardImage("asset/img/electronic.jpg"),
-          CardImage("asset/img/telecomunication.jpg"),
+        CardImage("asset/img/civil.jpg", 350.0, 250.0, 80.0, 20.0, BoxShape.rectangle, Colors.black38, 15.0),
+          CardImage("asset/img/computer.jpg", 350.0, 250.0, 80.0, 20.0, BoxShape.rectangle, Colors.black38, 15.0),
+          CardImage("asset/img/electronic.jpg", 350.0, 250.0, 80.0, 20.0, BoxShape.rectangle, Colors.black38, 15.0),
+          CardImage("asset/img/telecomunication.jpg", 350.0, 250.0, 80.0, 20.0, BoxShape.rectangle, Colors.black38, 15.0),
         ],
         ),
       );

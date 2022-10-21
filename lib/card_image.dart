@@ -5,18 +5,25 @@ import 'floating_action_button.dart';
 class CardImage extends StatelessWidget{
 
   String pathImage="";
+  double height;
+  double width;
+  double topValue;
+  double leftValue;
+  BoxShape boxShape;
+  Color boxShadowColor;
+  double blurRadiusVal;
 
-  CardImage(this.pathImage, {super.key});
+  CardImage(this.pathImage, this.height, this.width, this.topValue, this.leftValue, this.boxShape, this.boxShadowColor, this.blurRadiusVal, {super.key});
 
   @override
   Widget build(BuildContext context) {
 
     final card = Container(
-      height: 350.0,
-      width: 250.0,
-      margin: const EdgeInsets.only(
-        top:80.0,
-        left:20.0
+      height: height,
+      width: width,
+      margin: EdgeInsets.only(
+        top: topValue,
+        left: leftValue,
       ),
       decoration: BoxDecoration(
         image: DecorationImage(
@@ -24,12 +31,12 @@ class CardImage extends StatelessWidget{
           image: AssetImage(pathImage)
         ),
           borderRadius: const BorderRadius.all(Radius.circular(10.0)),
-        shape: BoxShape.rectangle,
-        boxShadow: const  <BoxShadow>[
+        shape: boxShape,
+        boxShadow:   <BoxShadow>[
           BoxShadow(
-              color: Colors.black38,
-              blurRadius: 15.0,
-              offset: Offset(0.0,7.0)
+              color: boxShadowColor,
+              blurRadius: blurRadiusVal,
+              offset: const Offset(0.0,7.0)
           )
         ]
       ),
