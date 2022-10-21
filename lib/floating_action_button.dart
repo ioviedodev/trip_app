@@ -5,6 +5,11 @@ import 'home_trips.dart';
 import 'profile_trips.dart';
 
 class FloatingActionButtonCustomize extends StatefulWidget{
+
+  // String mode="";//Home, Search, Profile
+  // IconData iconData;
+  // int backGroundColor;
+
   const FloatingActionButtonCustomize({super.key});
 
   @override
@@ -24,7 +29,7 @@ class _FloatingActionButtonCustomize extends State<FloatingActionButtonCustomize
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
+
     final floatingActionButton= FloatingActionButton(
       backgroundColor: const Color(0XFF11DA53),
       mini: true,

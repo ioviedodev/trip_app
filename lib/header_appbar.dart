@@ -30,7 +30,7 @@ class HeaderAppBar extends StatelessWidget{
     final header = Stack(
       children: <Widget> [
 
-        GradientBack(label),
+        GradientBack(label,250.0),
         widget
 
       ],
