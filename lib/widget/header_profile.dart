@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trip_app/gradient_back.dart';
-import 'package:trip_app/profile_description.dart';
+import 'package:trip_app/widget/gradient_back.dart';
+import 'package:trip_app/widget/profile_description.dart';
 
 
 class HeaderProfile extends StatelessWidget{

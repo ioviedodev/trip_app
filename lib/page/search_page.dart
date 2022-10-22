@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trip_app/search_option.dart';
+import 'package:trip_app/widget/search_option.dart';
 
 class SearchTrips extends StatelessWidget{
   const SearchTrips({super.key});

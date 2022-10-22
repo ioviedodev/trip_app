@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:trip_app/card_image_list.dart';
-import 'package:trip_app/gradient_back.dart';
-import 'package:trip_app/job_vacancy.dart';
+import 'package:trip_app/widget/card_image_list.dart';
+import 'package:trip_app/widget/gradient_back.dart';
+import 'package:trip_app/widget/job_vacancy.dart';
 
 // ignore: must_be_immutable
 class HeaderAppBar extends StatelessWidget{

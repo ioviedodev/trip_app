@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:trip_app/home_trips.dart';
-import 'package:trip_app/search_page.dart';
-import 'home_trips.dart';
-import 'profile_trips.dart';
+import 'package:trip_app/page/home_trips.dart';
+import 'package:trip_app/page/search_page.dart';
+import 'package:trip_app/page/home_trips.dart';
+import 'package:trip_app/page/profile_trips.dart';
 
 class FloatingActionButtonCustomize extends StatefulWidget{
 
