@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'career.dart';
+import 'data/career.dart';
 
 
 class SearchOption extends StatelessWidget {

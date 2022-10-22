@@ -4,7 +4,7 @@ import 'package:trip_app/options_profile.dart';
 import 'package:trip_app/review.dart';
 import 'card_image.dart';
 import 'card_image_description.dart';
-import 'utililies.dart';
+import 'data/utililies.dart';
 import 'floating_action_button.dart';
 import 'floating_action_button.dart';
 class ProfileDescription extends StatelessWidget{
