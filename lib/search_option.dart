@@ -7,6 +7,7 @@ class SearchOption extends StatelessWidget {
   const SearchOption({super.key});
 
 
+
   static const List<Career> _careerOptions = <Career>[
     Career(name: 'Electronic Engineering',
         description: 'Electronics engineering is the branch of electrical engineering which deals with the uses of the electromagnetic spectrum and the application of such electronic devices as integrated circuits and transistors.'),
@@ -41,9 +42,8 @@ class SearchOption extends StatelessWidget {
     return TextField(
       controller: fieldTextEditingController,
       focusNode: fieldFocusNode,
-      decoration: const InputDecoration(filled: true, fillColor: Colors.indigo, labelText: "Input a career name"),
-      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold,
-          fontFamily: "Lato", fontSize: 20.0),
+      decoration: const InputDecoration(filled: true, fillColor: Colors.white ,hintText: "Input the career name", prefixIcon: Icon(Icons.search,color: Colors.indigoAccent,)),
+      style: const TextStyle(color: Colors.indigo, fontWeight: FontWeight.bold,fontFamily: "Lato", fontSize: 20.0),
     );
   }
 
@@ -51,11 +51,28 @@ class SearchOption extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return Autocomplete<Career>(
+    final autoComplete = Autocomplete<Career>
+      (
       displayStringForOption: _displayStringForOption,
       optionsBuilder: _optionsBuilder,
       onSelected: _onSelected,
       fieldViewBuilder: _fieldViewBuilder,
+    );
+
+     final resultsSearch = Container(
+      margin: EdgeInsets.only(top: 200),
+      child: Text("Resultado de busqueda estudiar como se hace"),
+    );
+
+    final columnInterface= Column(
+      children: [
+        autoComplete,
+        resultsSearch,
+      ],
+    );
+
+    return Scaffold(
+      body: columnInterface,
     );
   }
 
