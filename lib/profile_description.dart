@@ -21,7 +21,7 @@ class ProfileDescription extends StatelessWidget{
     final containReview = Container(
       // height: margin_top,
       margin: const EdgeInsets.only(
-          top:80.0,
+          top:100.0,
           left:10.0
       ),
       child: Review("asset/img/vacancy3.png", "Iván Oviedo","ivan@oviedoengineering.com",""),
@@ -42,20 +42,20 @@ class ProfileDescription extends StatelessWidget{
         children: <Widget>[
           CardImageDescription("asset/img/civil.jpg", height, width, 20, leftValue, boxShape, boxShadowColor, blurRadiusVal,
           "Civil Engineer",15.0,Colors.black,TextAlign.center,"Lato",
-          "It refers to design structures",12.0,Colors.black,TextAlign.justify,"Lato",
-          "Cambridge University",15.0,Colors.black,TextAlign.left,"Lato"),
+          "It refers to design structures",12.0,Colors.black38,TextAlign.justify,"Lato",
+          "Cambridge University",15.0,Colors.orange,TextAlign.left,"Lato"),
           CardImageDescription("asset/img/computer.jpg", height, width, topValue, leftValue, boxShape, boxShadowColor, blurRadiusVal,
               "Computer Science",15.0,Colors.black,TextAlign.left,"Lato",
-              "It refers to computer science combines the principles of engineering, mathematics and science to study and develop computers",12.0,Colors.black,TextAlign.left,"Lato",
-              "Buenos Aires University ",15.0,Colors.black,TextAlign.left,"Lato"),
+              "It refers to computer science combines the principles of engineering, mathematics and science to study and develop computers",12.0,Colors.black38,TextAlign.left,"Lato",
+              "Buenos Aires University ",15.0,Colors.orange,TextAlign.left,"Lato"),
           CardImageDescription("asset/img/electronic.jpg", height, width, topValue, leftValue, boxShape, boxShadowColor, blurRadiusVal,
               "Electronic Engineer",15.0,Colors.black,TextAlign.left,"Lato",
-              "Refers to design and develop electronic equipment, including broadcast and communications systems",12.0,Colors.black,TextAlign.left,"Lato",
-              "Espol University",15.0,Colors.black,TextAlign.left,"Lato"),
+              "Refers to design and develop electronic equipment, including broadcast and communications systems",12.0,Colors.black38,TextAlign.justify,"Lato",
+              "Espol University",15.0,Colors.orange,TextAlign.left,"Lato"),
           CardImageDescription("asset/img/telecomunication.jpg", height, width, topValue, leftValue, boxShape, boxShadowColor, blurRadiusVal,
               "Telecommunication Engineer",15.0,Colors.black,TextAlign.left,"Lato",
-              "Refers to design, construct, install and service telecommunications equipment and systems.",12.0,Colors.black,TextAlign.left,"Lato",
-              "Oporto University",15.0,Colors.black,TextAlign.left,"Lato"),
+              "Refers to design, construct, install and service telecommunications equipment and systems.",12.0,Colors.black38,TextAlign.justify,"Lato",
+              "Oporto University",15.0,Colors.orange,TextAlign.left,"Lato"),
         ],
       ),
     );

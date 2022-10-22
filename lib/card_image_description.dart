@@ -104,7 +104,7 @@ class CardImageDescription extends StatelessWidget{
 
     final box = Container(
       height: height * (0.50),
-      width: width * (0.90),
+      width: width * (0.80),
       decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: const BorderRadius.all(Radius.circular(10.0)),

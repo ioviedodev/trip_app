@@ -22,7 +22,7 @@ class _OptionsProfile extends State<OptionsProfile>{
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [
         Expanded(child: FloatingActionButton(
-          backgroundColor: colorBackground,  //Color(color),
+          backgroundColor: colorBackground,
           mini: true,
           onPressed: onPressed,
           child:  Icon(color: iconColor, Icons.bookmark_add_outlined),
@@ -59,7 +59,9 @@ class _OptionsProfile extends State<OptionsProfile>{
 
     void onPressed()
     {
-
+      // setState(() {
+      //
+      // }
     }
 
 }
