@@ -1,32 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'career.dart';
 
-@immutable
-class Career {
-  const Career({
-    required this.description,
-    required this.name,
-  });
-
-  final String description;
-  final String name;
-
-  @override
-  String toString() {
-    return '$name, $description';
-  }
-
-  @override
-  bool operator ==(Object other) {
-    if (other.runtimeType != runtimeType) {
-      return false;
-    }
-    return other is Career && other.name == name && other.description == description;
-  }
-
-  @override
-  int get hashCode => Object.hash(description, name);
-}
 
 class SearchOption extends StatelessWidget {
   const SearchOption({super.key});
@@ -46,7 +21,7 @@ class SearchOption extends StatelessWidget {
   static String _displayStringForOption(Career option) => option.name;
 
   void _onSelected(Career selection) {
-    debugPrint('You just selected ${selection.description}');//_displayStringForOption(selection)
+    debugPrint('You just selected ${selection.description}');
   }
 
   Iterable<Career> _optionsBuilder(TextEditingValue textEditingValue) {
