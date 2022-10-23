@@ -5,8 +5,8 @@ import 'profile.dart';
 import 'search.dart';
 
 
-class TripsCupertino   extends StatelessWidget {
-  const TripsCupertino({super.key});
+class ManagerPagesIos   extends StatelessWidget {
+  const ManagerPagesIos({super.key});
 
   @override
   Widget build(BuildContext context) {

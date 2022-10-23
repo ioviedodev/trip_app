@@ -3,8 +3,8 @@ import 'package:trip_app/page/home.dart';
 import 'package:trip_app/page/profile.dart';
 import 'search.dart';
 
-class Trips extends StatefulWidget{
-  const Trips({super.key});
+class ManagerPagesAndroid extends StatefulWidget{
+  const ManagerPagesAndroid({super.key});
 
   @override
   State<StatefulWidget> createState() {
@@ -12,7 +12,7 @@ class Trips extends StatefulWidget{
   }
 }
 
-class _Trips extends State<Trips>{
+class _Trips extends State<ManagerPagesAndroid>{
   int currentIndexTap=0;
   final List<Widget> widgetsChilden = [
     Home(),
