@@ -3,21 +3,6 @@ import 'package:flutter/material.dart';
 
 class Utilities {
 
-  // Widget getIconByIcon (IconData iconData, int color, double marginTop, double marginLeft)
-  // {
-  //   final star = Container(
-  //     margin: EdgeInsets.only(top: marginTop, right: marginLeft),
-  //     decoration: BoxDecoration(
-  //         borderRadius: BorderRadius.circular(100),
-  //         border: Border.all(width: 2, color: Colors.white)),
-  //     child:  Icon(
-  //       iconData,
-  //       color: Color(color),
-  //     ),
-  //   );
-  //   return star;
-  // }
-
 
     Widget getIconByIcon (IconData iconData, int color, double marginTop, double marginLeft)
   {

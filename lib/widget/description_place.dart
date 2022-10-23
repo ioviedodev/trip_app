@@ -14,15 +14,6 @@ class DescriptionPlace extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //TODO: implement build
-    // String decimals;
-    // int decimalDigits=0; // index=0;
-    //
-    // decimals = numberStars.toString().split('.')[1];
-    //
-    // if(decimals.compareTo("0")!=0)
-    // {
-    //   decimalDigits=decimals.length;
-    // }
 
     final description = Column(
         mainAxisSize: MainAxisSize.max,

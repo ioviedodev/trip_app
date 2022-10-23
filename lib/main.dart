@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trip_app/page/trips_cupertino.dart';
-import 'package:trip_app/widget/description_place.dart';
-import 'package:trip_app/widget/review_list.dart';
-import 'widget/gradient_back.dart';
 import 'package:flutter/services.dart';
-import 'package:trip_app/widget/header_appbar.dart';
-import 'widget/contact_detail_list.dart';
 import 'package:trip_app/page/trips.dart';
 
 void main() {

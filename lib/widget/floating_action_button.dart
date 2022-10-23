@@ -1,14 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:trip_app/page/home_trips.dart';
-import 'package:trip_app/page/search_page.dart';
-import 'package:trip_app/page/home_trips.dart';
-import 'package:trip_app/page/profile_trips.dart';
+
 
 class FloatingActionButtonCustomize extends StatefulWidget{
 
-  // String mode="";//Home, Search, Profile
-  // IconData iconData;
-  // int backGroundColor;
 
   const FloatingActionButtonCustomize({super.key});
 

@@ -2,11 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:trip_app/widget/options_profile.dart';
 import 'package:trip_app/widget/review.dart';
-import 'package:trip_app/widget/card_image.dart';
 import 'package:trip_app/widget/card_image_description.dart';
 import 'package:trip_app/data/utililies.dart';
-import 'package:trip_app/widget/floating_action_button.dart';
-import 'package:trip_app/widget/floating_action_button.dart';
 class ProfileDescription extends StatelessWidget{
 
 
