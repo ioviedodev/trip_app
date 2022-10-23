@@ -6,6 +6,10 @@
 Career app is a probe of concepts in order to get familiar with Flutter Framework. In this app you can choose
 yor career, you have some interactions with the buttons, listview, scroll, scaffold, stack, FloatingActionButton 
 
+|                                                   App Preview                                                   |
+|:---------------------------------------------------------------------------------------------------------------:|
+| <img src="careerApp.gif" width="350"></a> |
+
 ## Getting Started
 
 Just clone and run it, it does not required download any external library
