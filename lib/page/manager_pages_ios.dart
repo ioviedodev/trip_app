@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:trip_app/page/home_trips.dart';
-import 'profile_trips.dart';
-import 'search_page.dart';
+import 'package:trip_app/page/home.dart';
+import 'profile.dart';
+import 'search.dart';
 
 
 class TripsCupertino   extends StatelessWidget {

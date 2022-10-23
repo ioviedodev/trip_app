@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:trip_app/page/trips.dart';
+import 'package:trip_app/page/manager_pages_android.dart';
 
 void main() {
 

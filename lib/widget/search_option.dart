@@ -56,6 +56,9 @@ class SearchOption extends StatelessWidget {
       displayStringForOption: _displayStringForOption,
       optionsBuilder: _optionsBuilder,
       onSelected: _onSelected,
+      //     (Career selection) {
+      //   ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text(selection.description)));
+      // },
       fieldViewBuilder: _fieldViewBuilder,
     );
 
