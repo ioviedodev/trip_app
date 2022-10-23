@@ -1,16 +1,11 @@
-# trip_app
+# Career app
+[![Twitter Follow](https://img.shields.io/twitter/follow/ivoviedo?color=1DA1F2&label=Followers&logo=twitter&style=for-the-badge)][twitter]
+[![GitHub stars](https://img.shields.io/github/stars/ioviedodev/trip_app.svg?style=social&label=Star)](https://github.com/ioviedodev/trip_app)
+[![GitHub ioviedodev](https://img.shields.io/github/followers/ioviedodev?label=follow&style=social)](https://github.com/ioviedodev)
 
-Trip app
+Career app is a probe of concepts in order to get familiar with Flutter Framework. In this app you can choose
+yor career, you have some interactions with the buttons, listview, scroll, scaffold, stack, FloatingActionButton 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Just clone and run it, it does not required download any external library
