@@ -3,8 +3,8 @@ import 'package:trip_app/widget/description_place.dart';
 import 'package:trip_app/widget/review_list.dart';
 import 'package:trip_app/widget/header_appbar.dart';
 
-class HomeTrips extends StatelessWidget{
-  const HomeTrips({super.key});
+class Home extends StatelessWidget{
+  const Home({super.key});
 
   @override
   Widget build(BuildContext context) {

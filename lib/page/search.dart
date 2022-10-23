@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:trip_app/widget/search_option.dart';
 
-class SearchTrips extends StatelessWidget{
-  const SearchTrips({super.key});
+class Search extends StatelessWidget{
+  const Search({super.key});
 
 
   @override

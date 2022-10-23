@@ -15,9 +15,9 @@ class Trips extends StatefulWidget{
 class _Trips extends State<Trips>{
   int currentIndexTap=0;
   final List<Widget> widgetsChilden = [
-    HomeTrips(),
-    SearchTrips(),
-    ProfileTrips()
+    Home(),
+    Search(),
+    Profile()
   ];
 
   void onTapTapped(int index)

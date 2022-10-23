@@ -36,22 +36,22 @@ class TripsCupertino   extends StatelessWidget {
             switch (index) {
               case 0:
                 return CupertinoTabView(
-                  builder: (BuildContext context) => const HomeTrips(),
+                  builder: (BuildContext context) => const Home(),
                 );
                 break;
               case 1:
                 return CupertinoTabView(
-                  builder: (BuildContext context) => const SearchTrips(),
+                  builder: (BuildContext context) => const Search(),
                 );
                 break;
               case 2:
                 return CupertinoTabView(
-                  builder: (BuildContext context) => const ProfileTrips(),
+                  builder: (BuildContext context) => const Profile(),
                 );
                 break;
               default:
                 return CupertinoTabView(
-                  builder: (BuildContext context) => const HomeTrips(),
+                  builder: (BuildContext context) => const Home(),
                 );
             }
           },

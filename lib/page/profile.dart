@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:trip_app/widget/header_profile.dart';
 
 
-class ProfileTrips extends StatelessWidget{
-  const ProfileTrips({super.key});
+class Profile extends StatelessWidget{
+  const Profile({super.key});
 
 
   @override
