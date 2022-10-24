@@ -16,21 +16,7 @@ yor career, you have some interactions with the buttons, listview, scroll, scaff
 
 Just clone and run it, it does not required download any external library
 
-Project structure
 
-root
-│
-│   README.md
-│
-└───lib
-    │   
-    └───data
-    │   
-    └───widget
-    │   
-    └───page
-    │
-    │   main.dart
 
 ### ⚡&ensp;Social Media
 
