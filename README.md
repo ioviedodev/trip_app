@@ -17,15 +17,25 @@ yor career, you have some interactions with the buttons, listview, scroll, scaff
 Just clone and run it, it does not required download any external library
 
 Project structure
--lib
-    -data       //data class 
-    -widget     //general widgets
-    -page       //pages
 
+root
+│   README.md
+│
+└───lib
+    │   
+    └───data
+    │   
+    └───widget
+    │   
+    └───page
+    │
+    │   main.dart
 
 ### ⚡&ensp;Social Media
 
 [<img align="center" alt="IvanOviedo | Instagram" width="28px" src="https://firebasestorage.googleapis.com/v0/b/web-johannesmilke.appspot.com/o/other%2Fsocial%2Finstagram.png?alt=media" />](https://instagram.com/ivanoviedo.a) &ensp;Instagram: [@IvanOviedo](https://instagram.com/ivanoviedo.a "Instagram Iván Oviedo")
+
 [<img align="center" alt="IvanOviedo | LinkedIn" width="28px" src="https://firebasestorage.googleapis.com/v0/b/web-johannesmilke.appspot.com/o/other%2Fsocial%2Flinkedin.png?alt=media" />](https://linkedin.com/in/iván-oviedo-a72a19109) &ensp;LinkedIn: [@IvanOviedo](https://linkedin.com/in/iván-oviedo-a72a19109 "LinkedIn Iván Oviedo")
+
 
 [twitter]: https://twitter.com/intent/follow?screen_name=ivoviedo
