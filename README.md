@@ -25,4 +25,7 @@ Project structure
 
 ### ⚡&ensp;Social Media
 
-[<img align="center" alt="JohannesMilke | LinkedIn" width="28px" src="https://drive.google.com/file/d/18mMA4h6Dxt-nE6xgN9geekG97tScMiba/view" />](https://linkedin.com/in/iván-oviedo-a72a19109)&ensp;LinkedIn: [@iván-oviedo-a72a19109](https://linkedin.com/in/iván-oviedo-a72a19109"LinkedIn Iván Oviedo")
+[<img align="center" alt="IvanOviedo | Instagram" width="28px" src="https://firebasestorage.googleapis.com/v0/b/web-johannesmilke.appspot.com/o/other%2Fsocial%2Finstagram.png?alt=media" />](https://instagram.com/ivanoviedo.a) &ensp;Instagram: [@IvanOviedo](https://instagram.com/ivanoviedo.a "Instagram Iván Oviedo")
+[<img align="center" alt="IvanOviedo | LinkedIn" width="28px" src="https://firebasestorage.googleapis.com/v0/b/web-johannesmilke.appspot.com/o/other%2Fsocial%2Flinkedin.png?alt=media" />](https://linkedin.com/in/iván-oviedo-a72a19109) &ensp;LinkedIn: [@IvanOviedo](https://linkedin.com/in/iván-oviedo-a72a19109 "LinkedIn Iván Oviedo")
+
+[twitter]: https://twitter.com/intent/follow?screen_name=ivoviedo
