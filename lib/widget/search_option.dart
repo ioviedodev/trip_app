@@ -55,16 +55,16 @@ class SearchOption extends StatelessWidget {
       (
       displayStringForOption: _displayStringForOption,
       optionsBuilder: _optionsBuilder,
-      onSelected: _onSelected,
-      //     (Career selection) {
-      //   ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text(selection.description)));
-      // },
+      onSelected: //_onSelected,
+          (Career selection) {
+        ScaffoldMessenger.of(context).showSnackBar( SnackBar(content: Text(selection.description)));
+      },
       fieldViewBuilder: _fieldViewBuilder,
     );
 
      final resultsSearch = Container(
       margin: EdgeInsets.only(top: 200),
-      child: Text("Resultado de busqueda estudiar como se hace"),
+      child: Text("To do show results"),
     );
 
     final columnInterface= Column(
